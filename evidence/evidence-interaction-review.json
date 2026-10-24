@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-24T08:02:56.292Z",
+  "browser": "155.0.4283.62",
+  "checks": [
+    "Competing windows expose both counting possibilities without selecting a convenient date",
+    "Comparison dates and rule actions fit tablet and two phone widths with 44px targets",
+    "Explicit rule choice fills evidence-based fields, leaving counting and confirmation to the user",
+    "Explicit interpretation unlocks the selected date while retaining original conflict flags",
+    "Evidence action selects the exact original policy line without changing the reviewed case",
+    "Source edits disable stale source links and rule shortcuts as well as calendar export",
+    "Unsupported business-day comparison never offers a calculated date or selectable shortcut"
+  ],
+  "errors": [],
+  "result": "PASS"
+}

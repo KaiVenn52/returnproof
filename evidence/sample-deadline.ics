@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ReturnProof//Local Evidence Workspace//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:c243ac0a-793f-4d34-8914-d576813866bf@returnproof.local
+DTSTAMP:20261024T075144Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Review return deadline: Everyday headphones
+DESCRIPTION:Human-confirmed interpretation\, not merchant approval. 30 cale
+ ndar days from 2026-10-10\, exclude anchor. The fictional policy gives 30 
+ calendar days\, starting the day after delivery. Item conditions were chec
+ ked.\nCheck merchant conditions\, cutoff time\, and whether request\, disp
+ atch\, or receipt is required. Calendar software controls reminders.
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Review return evidence and merchant instructions
+END:VALARM
+END:VEVENT
+END:VCALENDAR

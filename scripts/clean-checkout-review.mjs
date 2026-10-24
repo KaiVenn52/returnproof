@@ -1,0 +1,31 @@
+import {execFileSync,spawn} from 'node:child_process';
+import {mkdtemp,mkdir,writeFile,readFile} from 'node:fs/promises';
+import {resolve,join} from 'node:path';
+import {loadPlaywright} from './browser-runtime.mjs';
+import {createServer} from 'node:net';
+import assert from 'node:assert/strict';
+const {chromium}=loadPlaywright();
+await mkdir('.temp',{recursive:true});
+const folder=await mkdtemp(resolve('.temp/clean-review-'));
+const archive=join(folder,'source.zip');
+execFileSync('git',['-c','core.autocrlf=false','archive','--format=zip','--output='+archive,'HEAD']);
+execFileSync('tar',['-xf',archive,'-C',folder]);
+const sourceCommit=execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
+const checks=[];const pass=s=>{checks.push(s);console.log('PASS '+s);};
+execFileSync(process.execPath,['--test','tests/domain.test.mjs'],{cwd:folder});pass('Extracted source passes all core tests without npm install');
+execFileSync(process.execPath,['scripts/build.mjs'],{cwd:folder});pass('Extracted source builds five static assets without npm install');
+const probe=createServer();await new Promise(r=>probe.listen(0,'127.0.0.1',r));const port=probe.address().port;await new Promise(r=>probe.close(r));
+const server=spawn(process.execPath,['server.mjs'],{cwd:folder,env:{...process.env,PORT:String(port)},windowsHide:true,stdio:['ignore','pipe','pipe']});
+let logs='';server.stdout.on('data',b=>logs+=b);server.stderr.on('data',b=>logs+=b);
+const browser=await chromium.launch({channel:'msedge',headless:true});const context=await browser.newContext({acceptDownloads:true});const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+try {
+ const base='http://127.0.0.1:'+port;
+ await page.goto(base);assert.match(await page.title(),/ReturnProof/);
+ assert.equal((await page.request.get(base+'/src/app.mjs')).status(),200);pass('Independent packaged server serves the intended app and assets');
+ await page.getByRole('button',{name:/Try a clear example/}).click();await page.locator('#save-draft').click();await page.reload();await page.locator('[data-case]').click();assert.equal(await page.locator('#deadline-value').count(),0);pass('Partial-stage draft persists in the independent origin');
+ await page.locator('.analyze').click();assert.equal(await page.locator('#deadline-value').innerText(),'November 9, 2026');assert.equal(await page.locator('#calendar').isDisabled(),true);
+ await page.locator('#rationale').fill('Fictional review: 30 calendar days starting after the supplied delivery date, with conditions checked.');await page.locator('#ack').check();await page.locator('#confirm').click();
+ const pending=page.waitForEvent('download');await page.locator('#calendar').click();const download=await pending;const bytes=await readFile(await download.path(),'utf8');assert.match(bytes,/DTSTART;VALUE=DATE:20261109/);pass('Packaged app confirms and downloads the expected all-day calendar');
+ assert.deepEqual(errors,[]);pass('No page errors in the packaged core journey');
+ await writeFile('evidence/clean-checkout-review.json',JSON.stringify({checkedAt:new Date().toISOString(),sourceCommit,installRequired:false,node:process.version,browser:await browser.version(),checks,errors,result:'PASS',limits:'Fresh source extraction and isolated origin on the existing Windows machine; not a different physical machine or OS.'},null,2)+'\n');
+}finally {await context.close();await browser.close();server.kill();}

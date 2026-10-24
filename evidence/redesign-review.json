@@ -1,0 +1,61 @@
+{
+  "runAt": "2026-10-24T07:52:23.101Z",
+  "browser": "155.0.4283.62",
+  "reviewer": "Agent review, not a learner interview or user study",
+  "checks": [
+    "Keyboard skip link is visible when focused",
+    "Cancel discard keeps unsaved input",
+    "Explicit discard starts a fresh case",
+    "Unchanged-source recheck preserves rationale, checklist and confirmation",
+    "Saved indicator and acknowledgment match persisted state",
+    "Primary flow controls have at least 44px targets",
+    "Primary button text contrast exceeds 4.5:1",
+    "Six desktop/tablet/phone widths have no horizontal overflow or off-screen inputs",
+    "Changed sources suppress the old date and disable exports",
+    "Delete has a working cancel path that keeps the record",
+    "Cancel replacement preserves unreadable existing browser data",
+    "Explicit replacement recovers storage without a stale warning",
+    "Reduced-motion preference disables entrance animation"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "horizontalOverflow": false,
+      "controlsWithinViewport": true
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "horizontalOverflow": false,
+      "controlsWithinViewport": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "horizontalOverflow": false,
+      "controlsWithinViewport": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "horizontalOverflow": false,
+      "controlsWithinViewport": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "horizontalOverflow": false,
+      "controlsWithinViewport": true
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "horizontalOverflow": false,
+      "controlsWithinViewport": true
+    }
+  ],
+  "errors": [],
+  "primaryButtonContrast": 4.9023029652004375,
+  "result": "PASS"
+}

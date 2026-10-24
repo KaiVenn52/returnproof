@@ -1,0 +1,82 @@
+{
+  "product": "ReturnProof",
+  "formatVersion": 1,
+  "exportedAt": "2026-10-24T07:51:43.941Z",
+  "status": "Human-confirmed interpretation",
+  "merchant": "Northline Supply · fictional",
+  "item": "Everyday headphones",
+  "candidateDeadline": "2026-11-09",
+  "interpretation": {
+    "anchor": "2026-10-10",
+    "basis": "delivery",
+    "days": 30,
+    "counting": "exclude",
+    "rationale": "The fictional policy gives 30 calendar days, starting the day after delivery. Item conditions were checked."
+  },
+  "confirmation": {
+    "at": "2026-10-24T07:51:41.008Z",
+    "identity": "Self-reported, not authenticated"
+  },
+  "evidence": {
+    "dates": [
+      {
+        "date": "2026-10-10",
+        "basis": "delivery",
+        "quote": "Delivered: 2026-10-10",
+        "line": 4,
+        "source": "Receipt"
+      }
+    ],
+    "rules": [
+      {
+        "days": 30,
+        "unit": "calendar",
+        "basis": "delivery",
+        "counting": "exclude",
+        "quote": "Return requests must be made within 30 calendar days of delivery. Count from the day after delivery.",
+        "line": 2,
+        "source": "Policy"
+      }
+    ],
+    "issues": [],
+    "interpretation": {
+      "anchor": "2026-10-10",
+      "basis": "delivery",
+      "days": 30,
+      "counting": "exclude",
+      "rationale": ""
+    }
+  },
+  "sources": {
+    "receipt": "FICTIONAL DEMO RECEIPT — NOT A REAL PURCHASE\nOrder: NL-1048\nItem: Everyday headphones\nDelivered: 2026-10-10",
+    "policy": "FICTIONAL DEMO POLICY — NOT A REAL MERCHANT\nReturn requests must be made within 30 calendar days of delivery. Count from the day after delivery.\nKeep your proof of purchase and original packaging. Contact the merchant for return authorization before shipping."
+  },
+  "materials": [
+    {
+      "label": "Proof of purchase",
+      "checked": true,
+      "provenance": "General preparation suggestion; verify merchant requirements"
+    },
+    {
+      "label": "Photos of the item and its condition",
+      "checked": false,
+      "provenance": "General preparation suggestion; verify merchant requirements"
+    },
+    {
+      "label": "Original packaging and included accessories",
+      "checked": false,
+      "provenance": "General preparation suggestion; verify merchant requirements"
+    },
+    {
+      "label": "Merchant return instructions / authorization",
+      "checked": false,
+      "provenance": "General preparation suggestion; verify merchant requirements"
+    },
+    {
+      "label": "Shipping receipt and tracking after dispatch",
+      "checked": false,
+      "provenance": "General preparation suggestion; verify merchant requirements"
+    }
+  ],
+  "notice": "Organizes supplied merchant policy, not legal rights. No merchant acceptance, refund, shipping action or notification is guaranteed. Raw evidence is user supplied and unverified."
+}

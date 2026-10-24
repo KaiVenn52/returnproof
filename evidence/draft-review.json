@@ -1,0 +1,15 @@
+{
+  "runAt": "2026-10-24T07:54:02.842Z",
+  "browser": "155.0.4283.62",
+  "checks": [
+    "Desktop first viewport contains the primary source action",
+    "Partial sources save and reopen as a draft without a calculated deadline",
+    "Reopened draft can become a checked file and preserves the candidate after saving",
+    "Saving changed sources and reopening cannot revive a stale candidate deadline",
+    "Clearing all source fields of a saved file still requires a discard decision",
+    "Mobile return-file jump remains visible below the sticky navigation",
+    "Deleting a fresh case cannot silently overwrite unreadable existing storage"
+  ],
+  "errors": [],
+  "result": "PASS"
+}

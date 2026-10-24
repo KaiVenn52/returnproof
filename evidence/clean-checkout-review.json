@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-24T08:03:51.658Z",
+  "sourceCommit": "a69eafeee8ab563319724e842edf81d91e53da14",
+  "installRequired": false,
+  "node": "v24.20.0",
+  "browser": "155.0.4283.62",
+  "checks": [
+    "Extracted source passes all core tests without npm install",
+    "Extracted source builds five static assets without npm install",
+    "Independent packaged server serves the intended app and assets",
+    "Partial-stage draft persists in the independent origin",
+    "Packaged app confirms and downloads the expected all-day calendar",
+    "No page errors in the packaged core journey"
+  ],
+  "errors": [],
+  "result": "PASS",
+  "limits": "Fresh source extraction and isolated origin on the existing Windows machine; not a different physical machine or OS."
+}

@@ -1,0 +1,75 @@
+{
+  "reviewDate": "2026-10-24",
+  "timeZone": "Asia/Kuala_Lumpur",
+  "domainTests": {
+    "passed": 24,
+    "failed": 0,
+    "command": "node --test",
+    "evidence": "Observed final domain/export test command output"
+  },
+  "staticBuild": {
+    "passed": true,
+    "assets": 5,
+    "command": "node scripts/build.mjs"
+  },
+  "browserChecks": {
+    "passed": 15,
+    "failed": 0,
+    "report": "evidence/qa.json",
+    "lastRun": "2026-10-24T07:51:34.096Z"
+  },
+  "visualInspection": [
+    "redesign-desktop-empty.png",
+    "redesign-desktop-ready.png",
+    "redesign-desktop-conflict.png",
+    "redesign-tablet-ready.png",
+    "redesign-mobile-ready.png",
+    "redesign-mobile-plan.png"
+  ],
+  "learnerHandsOnReview": false,
+  "publicRepository": null,
+  "hostedDemo": null,
+  "registrationVerified": false,
+  "acceptedSubmission": false,
+  "acknowledgmentChecks": {
+    "passed": 5,
+    "failed": 0,
+    "report": "evidence/confirmation-review.json"
+  },
+  "redesignChecks": {
+    "passed": 13,
+    "failed": 0,
+    "report": "evidence/redesign-review.json",
+    "viewportCount": 6,
+    "primaryButtonContrast": 4.9023029652004375
+  },
+  "draftChecks": {
+    "passed": 7,
+    "failed": 0,
+    "report": "evidence/draft-review.json"
+  },
+  "releasePreflight": {
+    "report": "evidence/release-preflight.json",
+    "scope": "Content and private filenames across reachable history; original personal-email history is excluded from the public snapshot"
+  },
+  "cleanCheckout": {
+    "report": "evidence/clean-checkout-review.json",
+    "passed": 6,
+    "failed": 0,
+    "dependencyInstallRequired": false
+  },
+  "portal": {
+    "inspectionDate": "2026-10-24",
+    "registrationFormInspected": true,
+    "registered": false,
+    "answersEntered": false,
+    "projectEntryFormInspected": false,
+    "report": "submission/FORM_REVIEW.md"
+  },
+  "evidenceInteractionChecks": {
+    "passed": 7,
+    "failed": 0,
+    "report": "evidence/evidence-interaction-review.json"
+  },
+  "finalVideoSeconds": 88.44
+}

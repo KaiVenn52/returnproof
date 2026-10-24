@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-24T13:30:40.644Z",
+  "sourceCommit": "661b7ae8c53c76881e754514c9f2c58468608875",
+  "trackedFiles": 95,
+  "historyPaths": 95,
+  "textBlobsScanned": 197,
+  "findings": [],
+  "productionDependencies": 0,
+  "requiredTechnicalFilesPresent": true,
+  "videoSeconds": 88.44,
+  "videoMatchesAllApplicationAssets": true,
+  "scope": "Reachable local Git history and committed file names; high-confidence credential signatures. Manual review of intended publication files also required; not a guarantee that every possible secret is detected.",
+  "result": "PASS",
+  "originalHistoryContainsNonNoreplyAuthorEmail": true,
+  "publicationStrategy": "New one-commit source snapshot with verified GitHub noreply author; original local history is preserved and must not be pushed by this release plan."
+}

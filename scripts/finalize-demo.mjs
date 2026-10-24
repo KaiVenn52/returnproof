@@ -1,0 +1,17 @@
+import {execFileSync} from 'node:child_process';
+import {readFile,writeFile} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const run=(name,args)=>execFileSync(name,args,{stdio:['ignore','pipe','pipe'],maxBuffer:8*1024*1024});
+const record=JSON.parse(await readFile('evidence/demo-recording.json','utf8'));
+const blob=run('git',['rev-parse','HEAD:src/app.mjs']).toString().trim();
+assert.equal(record.appGitBlob,blob,'Application source changed after recording. Re-record before finalizing.');
+for(const [path,expected] of Object.entries(record.applicationGitBlobs||{}))assert.equal(run('git',['rev-parse','HEAD:'+path]).toString().trim(),expected,'Recorded asset changed: '+path);
+assert.deepEqual(record.pageErrors,[]);
+run('ffmpeg',['-y','-v','error','-i','evidence/returnproof-demo.webm','-c:v','libx264','-preset','ultrafast','-crf','23','-threads','2','-pix_fmt','yuv420p','-movflags','+faststart','evidence/returnproof-demo.mp4']);
+const media=JSON.parse(run('ffprobe',['-v','error','-show_entries','format=duration,size','-show_entries','stream=codec_name,width,height','-of','json','evidence/returnproof-demo.mp4']).toString());
+assert.ok(Number(media.format.duration)>30 && Number(media.format.duration)<180,'Unexpected demo length.');
+assert.equal(media.streams[0].codec_name,'h264');assert.equal(media.streams[0].width,1440);assert.equal(media.streams[0].height,1000);
+run('ffmpeg',['-v','error','-i','evidence/returnproof-demo.mp4','-f','null','-']);
+const frames=[8,20,47,65,75];for(const sec of frames)run('ffmpeg',['-y','-v','error','-ss',String(sec),'-i','evidence/returnproof-demo.mp4','-frames:v','1',`evidence/demo-frame-${sec}.png`]);
+await writeFile('evidence/demo-recording.json',JSON.stringify({...record,media,fullDecodeCheck:'Complete MP4 decoded with no reported errors',extractedFramesSeconds:frames,applicationBlobMatches:true,finalizedAt:new Date().toISOString()},null,2));
+console.log(`PASS: ${media.format.duration}s H.264 1440×1000; full decode; application Git blob matches capture; five review frames extracted.`);

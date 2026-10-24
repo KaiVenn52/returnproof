@@ -1,0 +1,70 @@
+{
+  "runAt": "2026-10-24T07:51:34.096Z",
+  "browser": "155.0.4283.62",
+  "browserPath": "Browser plugin not available; regular bundled Playwright with installed Edge",
+  "checks": [
+    {
+      "label": "Correct URL/title, meaningful app, no framework overlay",
+      "status": "PASS"
+    },
+    {
+      "label": "Clear source extracts traceable November 9 candidate; calendar locked",
+      "status": "PASS"
+    },
+    {
+      "label": "Explicit rationale and acknowledgment unlock calendar",
+      "status": "PASS"
+    },
+    {
+      "label": "Real browser downloads: checklist, evidence JSON and valid all-day ICS",
+      "status": "PASS"
+    },
+    {
+      "label": "Saved confirmed case and checklist survive reload",
+      "status": "PASS"
+    },
+    {
+      "label": "Editing a source immediately revokes confirmation and requires rebuild",
+      "status": "PASS"
+    },
+    {
+      "label": "Conflict keeps window unresolved with exact source evidence",
+      "status": "PASS"
+    },
+    {
+      "label": "Manual conflict interpretation changes arithmetic; source flags remain",
+      "status": "PASS"
+    },
+    {
+      "label": "Two-step deletion removes only selected saved case after reload",
+      "status": "PASS"
+    },
+    {
+      "label": "390×844 mobile: responsive layout, no horizontal overflow, usable export",
+      "status": "PASS"
+    },
+    {
+      "label": "Corrupt storage displays an actionable warning",
+      "status": "PASS"
+    },
+    {
+      "label": "Denied/full storage does not claim save success",
+      "status": "PASS"
+    },
+    {
+      "label": "Pasted HTML remains text and cannot execute",
+      "status": "PASS"
+    },
+    {
+      "label": "No app console/page errors and no outbound runtime requests",
+      "status": "PASS"
+    },
+    {
+      "label": "Static server rejects private paths and writes",
+      "status": "PASS"
+    }
+  ],
+  "console": [],
+  "outbound": [],
+  "result": "PASS"
+}
