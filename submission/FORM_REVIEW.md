@@ -1,6 +1,8 @@
-# Actual portal inspection — October 24, 2026
+# Actual portal inspection — updated October 26, 2026
 
 This records observed form prompts, not proposed answers or completed registration.
+
+October 26 update: the entrant supplied the required personal answers, and those answers were entered and verified in the registration form. Personal responses are not reproduced in this public technical record. The optional referral source remains blank. Both eligibility and rules/terms checkboxes remain unselected pending the entrant's explicit acceptance, and Register has not been clicked. The earlier read-only inspection below is retained as historical context.
 
 The existing signed-in Devpost browser session opened the [event overview](https://learn-ai-basics.devpost.com/), then [My projects](https://devpost.com/submit-to/30447-build-with-ai-basics/manage/submissions). The latter displayed “Register for this hackathon.” No ReturnProof submission was listed. The [registration form](https://learn-ai-basics.devpost.com/register) was opened for read-only inspection. No answer was entered, eligibility/terms box selected or Register action performed.
 

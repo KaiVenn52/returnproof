@@ -66,3 +66,7 @@ No learner uncertainty was reported; do not invent one. Agent investigation: inc
 October 24 second revision: compact workspace header/file rail and restrained title; draft saving is available before analysis. Draft reopen does not produce a date until the source check. Checked files expose Save changes. On phones, sticky Documents / Return file navigation leaves its destination visible. Clearing saved sources and deleting with unreadable existing storage retain explicit decision gates.
 
 October 24 product revision: compare competing source rules and both possible first-day dates without selecting a default; explicitly copy supported values into review; jump to the exact original source line. Source edits disable stale shortcuts. Clause-level refund filtering preserves the real return rule in mixed lines; duplicate semantic evidence does not invent a date conflict. Draft/confirmation gates remain unchanged.
+
+## Sharing instructions — October 26
+
+Public source: https://github.com/KaiVenn52/returnproof (default branch `codex/returnproof`, MIT). The entrant authorized publication of a separate clean source snapshot; original development history remains local. Anonymous reads of README, license, planning and app source were verified. Public YouTube/Vimeo URL remains pending agreement acceptance and upload. Final Devpost submission has not occurred. See `../evidence/publication.json` and `../submission/RELEASE_CHECKLIST.md`.

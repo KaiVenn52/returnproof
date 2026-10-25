@@ -40,13 +40,17 @@ Browser plugin was not listed in this session, so the frontend verification skil
 
 [PRODUCT_REVIEW.md](PRODUCT_REVIEW.md) records the current product assessment. Added explicit competing-rule/date comparison, exact original-line selection and safe review-field shortcuts; source changes disable stale shortcuts. Seven new browser checks and four new core tests cover these behaviors and the mixed refund/return-line and duplicate-evidence fixes. The recording is refreshed from the new source before release. This does not establish user research, a predicted award result or learner curriculum completion.
 
+## Publication update — October 26
+
+The public source repository is now [KaiVenn52/returnproof](https://github.com/KaiVenn52/returnproof), with MIT license and default branch `codex/returnproof`. The reviewed snapshot was pushed after explicit authorization; README, LICENSE, four planning documents and app source returned HTTP 200 without authentication. See `evidence/publication.json`. The previous October 24 preparation paragraph above records an earlier state. Video publication is authorized but paused at the upload dialog’s terms/community-guidelines agreement pending explicit acceptance. Entrant-supplied registration answers are filled; eligibility/rules acceptance and Register are still pending.
+
 ## Exact remaining gates
 
 1. **Learner review and curriculum participation.** Review the actual scope/PRD/spec, try the app, provide product feedback, and complete one short code/evidence walkthrough. No interviews, planning approvals, hands-on review or personal learning reflections have been fabricated. Resolve the adapted workflow before representing the guided curriculum as fully completed. Only real learner approval should change planning status to approved.
 2. **Personal eligibility and registration.** Entrant checks adulthood, location, affiliations, conflicts, ownership/team details, and accepts terms/registration personally or with explicit authorization. Not performed.
 3. **Human-authored submission fields and survey.** `HUMAN_FIELDS.md` contains prompts, not completed entry copy. The official `6-ship` skill requires learner authorship. Registration fields were inspected; exact project-entry fields remain inaccessible until registration.
-4. **Public source repository.** Local code, license, technical README and history are prepared; no remote was created or pushed. Explicit authorization is required because the prepared source snapshot becomes publicly readable; the original personal-email history stays local. Recheck staged files/history for secrets and private context immediately before publishing. Keep ignored learner profile out.
-5. **Public demo link.** Local silent real-UI footage is available for review. Approve the final recording and any personally written explanation, then authorize public YouTube/Vimeo upload. Verify anonymous access. Local files and GitHub attachments are not qualifying hosted-video URLs.
+4. **Public source repository — completed.** The authorized clean snapshot is public and anonymously verified. Original development history and ignored learner profile remain excluded.
+5. **Public demo link.** Local silent real-UI footage is available for review. The reviewed 88.44-second recording and public upload have been authorized. Explicit acceptance of the upload dialog’s agreement is pending. Verify anonymous access. Local files and GitHub attachments are not qualifying hosted-video URLs.
 6. **Final Devpost submission.** Fill actual form, verify links and submit only with explicit confirmation. No accepted submission is claimed.
 
 ## Rules snapshot

@@ -1,0 +1,58 @@
+{
+  "verifiedAt": "2026-10-25T17:21:19.427Z",
+  "repository": "https://github.com/KaiVenn52/returnproof",
+  "isPrivate": false,
+  "defaultBranch": "codex/returnproof",
+  "license": "MIT",
+  "initialPublishedCommit": "c6b560084a76020ffe5f18ec02599e18572487f4",
+  "originalDevelopmentHistoryPushed": false,
+  "anonymousReads": [
+    {
+      "path": "README.md",
+      "httpStatus": 200,
+      "revision": "c6b560084a76020ffe5f18ec02599e18572487f4"
+    },
+    {
+      "path": "LICENSE",
+      "httpStatus": 200,
+      "revision": "c6b560084a76020ffe5f18ec02599e18572487f4"
+    },
+    {
+      "path": "devpost/scope.md",
+      "httpStatus": 200,
+      "revision": "c6b560084a76020ffe5f18ec02599e18572487f4"
+    },
+    {
+      "path": "devpost/prd.md",
+      "httpStatus": 200,
+      "revision": "c6b560084a76020ffe5f18ec02599e18572487f4"
+    },
+    {
+      "path": "devpost/spec.md",
+      "httpStatus": 200,
+      "revision": "c6b560084a76020ffe5f18ec02599e18572487f4"
+    },
+    {
+      "path": "devpost/checklist.md",
+      "httpStatus": 200,
+      "revision": "c6b560084a76020ffe5f18ec02599e18572487f4"
+    },
+    {
+      "path": "src/app.mjs",
+      "httpStatus": 200,
+      "revision": "c6b560084a76020ffe5f18ec02599e18572487f4"
+    }
+  ],
+  "video": {
+    "publicationAuthorized": true,
+    "durationSeconds": 88.44,
+    "hostedUrl": null,
+    "status": "awaiting_explicit_upload_dialog_agreement_acceptance"
+  },
+  "registration": {
+    "personalAnswersEntered": true,
+    "eligibilityAndTermsAccepted": false,
+    "registered": false
+  },
+  "finalSubmission": false
+}

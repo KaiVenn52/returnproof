@@ -1,6 +1,6 @@
 # ReturnProof — submission release desk
 
-Updated October 24, 2026. **Technical deliverables prepared; registration, public links and entrant-authored fields remain open.** This is operational documentation, not a project pitch or a completed entry.
+Updated October 26, 2026. **Source repository published and anonymously verified; video hosting, registration and entrant-authored fields remain open.** This is operational documentation, not a project pitch or a completed entry.
 
 ## Verified technical materials
 
@@ -18,18 +18,17 @@ Updated October 24, 2026. **Technical deliverables prepared; registration, publi
 | Submission assets ZIP | `returnproof-submission-assets.zip`; video, four real screenshots, product review and operational worksheets, generated from the final committed source |
 | Review source ZIP | `returnproof-review.zip`, SHA-256 and manifest; every file compared with its committed blob |
 
-## Concrete publication plan — authorization pending
+## Publication status — source published
 
-- Target: a new public `KaiVenn52/returnproof` GitHub repository, branch `codex/returnproof`. Authenticated login verified; no existing repository resolved at this name during inspection. Recheck before creation.
-- Publish the prepared source snapshot from `returnproof-publication.manifest.json`, with the GitHub noreply author. Do not push the original local development history: its commit metadata contains a personal email.
-- Code, technical documents, licensed curriculum, fictional examples, screenshots and video in the snapshot become publicly readable. The ignored learner profile, credentials, raw browser recordings and original `.git` history are excluded.
-- After authorization, create/push the snapshot; verify repository visibility and anonymous access to README, app source, planning files and LICENSE. Record the resulting URL; do not label the planned URL as live.
-- Upload the reviewed `evidence/returnproof-demo.mp4` to the entrant's selected YouTube/Vimeo account only after authorization. Set public visibility and verify logged-out access. Local MP4, GitHub-hosted MP4 and the assets ZIP do not replace this required video URL.
-- App deployment is optional and is not an unresolved technical prerequisite.
+The entrant explicitly authorized public source and the reviewed 88.44-second demonstration. The [public repository](https://github.com/KaiVenn52/returnproof) now exists with default branch `codex/returnproof` and an MIT license. Initial published commit: `c6b560084a76020ffe5f18ec02599e18572487f4`. Unauthenticated HTTP requests returned 200 for README, LICENSE, all four planning documents and application source. The remote branch matched the prepared snapshot. Original personal-email development history was not pushed. See `evidence/publication.json` for the verification record.
+
+YouTube upload is authorized, but its upload dialog explicitly presents agreement to its terms and community guidelines. That consent is pending; no qualifying hosted-video URL exists yet. Registration answers supplied by the entrant have been entered, while eligibility/rules agreements remain unselected pending explicit acceptance. Registration and final submission have not been completed.
+
+Publication boundaries: code, technical documents, licensed curriculum, fictional examples, screenshots and the reviewed video are public in the source snapshot. The ignored learner profile, credentials, raw browser recordings and original development history are excluded. The GitHub-hosted MP4 and local assets ZIP do not replace the required YouTube/Vimeo URL. App deployment is optional.
 
 ## Entrant actions and final portal checks
 
-1. Provide truthful registration answers shown in [FORM_REVIEW.md](FORM_REVIEW.md), and review eligibility/rules/terms personally. The account is signed in but not registered for this event.
+1. Registration answers have been supplied and entered. Review eligibility/rules/terms personally; the account is signed in but not registered for this event. See [FORM_REVIEW.md](FORM_REVIEW.md).
 2. Review the actual planning docs and app, including the code walkthrough, before marking learner activities or planning approvals complete. Report only participation that occurred.
 3. Write the project name, description, actual entry answers and exit-survey responses. The official `6-ship` workflow keeps these learner-authored. [HUMAN_FIELDS.md](HUMAN_FIELDS.md) is a prompt sheet, not ready-to-paste entry copy.
 4. Once registration opens the actual entry form, inspect its exact required fields, media constraints and survey prompts. Record them in FORM_REVIEW.md, then enter only supplied/approved content.
