@@ -1,5 +1,8 @@
 # ReturnProof — Readiness
 
+Current draft update: CAPTCHA completed with explicit consent; ReturnProof draft 1265915 now shows 4/5 steps done. Name, pitch, factual agent-assisted story, source/video links, four actual screenshots and entrant-confirmed additional answers have been saved. At the entrant's explicit instruction, the agent authored factual copy; no full guided-learning participation is claimed. The final terms checkbox and Submit project action remain untouched pending final confirmation. Review: https://devpost.com/software/returnproof . Earlier pending-field/CAPTCHA states below are historical.
+
+
 ## Current portal state — October 27, Malaysia
 
 Registration completed after the entrant explicitly confirmed eligibility and agreement acceptance. Devpost displayed “Thanks for registering!”. The reviewed 88.44-second video is publicly published at https://youtu.be/GPr-uN0jM00 on Kang Ming Wong; YouTube reported no copyright issues. An unauthenticated YouTube oEmbed request returned the expected video title and channel. Public source remains https://github.com/KaiVenn52/returnproof.

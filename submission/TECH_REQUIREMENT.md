@@ -1,0 +1,1 @@
+Agent used the Devpost Learn Skill Pack, scope/PRD/spec/checklist and app map to build and test ReturnProof. Entrant directed revisions; agent led implementation. Full flipped-interaction interviews and learner planning sign-offs were not completed.

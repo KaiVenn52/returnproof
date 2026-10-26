@@ -65,8 +65,20 @@
     "timezone": "Asia/Kuala_Lumpur"
   },
   "projectEntry": {
-    "created": false,
-    "status": "creation_triggered_recaptcha_pending_action_time_confirmation",
-    "exactFieldsInspected": false
+    "created": true,
+    "submissionId": 1265915,
+    "previewUrl": "https://devpost.com/software/returnproof",
+    "editorUrl": "https://devpost.com/submit-to/30447-build-with-ai-basics/manage/submissions/1265915-returnproof/finalization",
+    "status": "draft_4_of_5_steps",
+    "captchaCompletedAfterExplicitConfirmation": true,
+    "exactFieldsInspected": true,
+    "projectNamePitchAndStorySaved": true,
+    "publicSourceAndVideoLinksSaved": true,
+    "galleryImagesSaved": 4,
+    "additionalInformationSaved": true,
+    "copyAuthorship": "agent_written_after_explicit_entrant_instruction",
+    "guidedCurriculumCompletionClaimed": false,
+    "finalSubmissionConfirmationPending": true,
+    "thumbnailSaved": true
   }
 }
