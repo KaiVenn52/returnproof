@@ -1,5 +1,8 @@
 # Actual portal inspection — updated October 26, 2026
 
+**Final status — October 27, 2026, Malaysia: SUBMITTED.** After explicit entrant confirmation of the current version and final terms, Submit project was activated. Devpost displayed “Project submitted!” and the project page showed “SUBMITTED TO — Build With AI: Basics”. Project: https://devpost.com/software/returnproof . Evidence: `evidence/devpost-submitted.png` and `evidence/publication.json`. Earlier pending/draft descriptions below are historical. This confirms portal submission, not eligibility review, judging or an award.
+
+
 Current draft update: CAPTCHA completed with explicit consent; ReturnProof draft 1265915 now shows 4/5 steps done. Name, pitch, factual agent-assisted story, source/video links, four actual screenshots and entrant-confirmed additional answers have been saved. At the entrant's explicit instruction, the agent authored factual copy; no full guided-learning participation is claimed. The final terms checkbox and Submit project action remain untouched pending final confirmation. Review: https://devpost.com/software/returnproof . Earlier pending-field/CAPTCHA states below are historical.
 
 

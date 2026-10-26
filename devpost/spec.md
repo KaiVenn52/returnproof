@@ -72,3 +72,5 @@ October 24 product revision: compare competing source rules and both possible fi
 Public source: https://github.com/KaiVenn52/returnproof (default branch `codex/returnproof`, MIT). The entrant authorized publication of a separate clean source snapshot; original development history remains local. Anonymous reads of README, license, planning and app source were verified. Public YouTube/Vimeo URL remains pending agreement acceptance and upload. Final Devpost submission has not occurred. See `../evidence/publication.json` and `../submission/RELEASE_CHECKLIST.md`.
 
 October 27 sharing update (Malaysia): reviewed video publicly published at https://youtu.be/GPr-uN0jM00; anonymous YouTube oEmbed returned the expected title and channel. Event registration is confirmed. Project creation is awaiting action-time consent for a reCAPTCHA challenge; final entry is not submitted.
+
+Final sharing status — October 27, 2026, Malaysia: https://devpost.com/software/returnproof is formally submitted to Build With AI: Basics. The portal success message and submitted-to label were observed after explicit final confirmation. See evidence/devpost-submitted.png.

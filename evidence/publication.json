@@ -59,7 +59,7 @@
     "registered": true,
     "successMessage": "Thanks for registering!"
   },
-  "finalSubmission": false,
+  "finalSubmission": true,
   "latestPortalUpdate": {
     "clientDate": "2026-10-27",
     "timezone": "Asia/Kuala_Lumpur"
@@ -69,7 +69,7 @@
     "submissionId": 1265915,
     "previewUrl": "https://devpost.com/software/returnproof",
     "editorUrl": "https://devpost.com/submit-to/30447-build-with-ai-basics/manage/submissions/1265915-returnproof/finalization",
-    "status": "draft_4_of_5_steps",
+    "status": "submitted",
     "captchaCompletedAfterExplicitConfirmation": true,
     "exactFieldsInspected": true,
     "projectNamePitchAndStorySaved": true,
@@ -78,7 +78,11 @@
     "additionalInformationSaved": true,
     "copyAuthorship": "agent_written_after_explicit_entrant_instruction",
     "guidedCurriculumCompletionClaimed": false,
-    "finalSubmissionConfirmationPending": true,
-    "thumbnailSaved": true
+    "finalSubmissionConfirmationPending": false,
+    "thumbnailSaved": true,
+    "submissionSuccessMessage": "Project submitted!",
+    "submittedTo": "Build With AI: Basics",
+    "submissionVerifiedAtMalaysia": "2026-10-27T00:37:48+08:00",
+    "successScreenshot": "evidence/devpost-submitted.png"
   }
 }
