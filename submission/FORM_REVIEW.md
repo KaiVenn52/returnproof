@@ -1,5 +1,12 @@
 # Actual portal inspection — updated October 26, 2026
 
+## Current portal state — October 27, Malaysia
+
+Registration completed after the entrant explicitly confirmed eligibility and agreement acceptance. Devpost displayed “Thanks for registering!”. The reviewed 88.44-second video is publicly published at https://youtu.be/GPr-uN0jM00 on Kang Ming Wong; YouTube reported no copyright issues. An unauthenticated YouTube oEmbed request returned the expected video title and channel. Public source remains https://github.com/KaiVenn52/returnproof.
+
+Creating the project triggered a reCAPTCHA image challenge; action-time confirmation to complete that challenge is pending. The project-entry fields remain uninspected. No final submission has occurred. Any pending registration or publication statements below describe earlier preparation stages and are superseded by this update.
+
+
 This records observed form prompts, not proposed answers or completed registration.
 
 October 26 update: the entrant supplied the required personal answers, and those answers were entered and verified in the registration form. Personal responses are not reproduced in this public technical record. The optional referral source remains blank. Both eligibility and rules/terms checkboxes remain unselected pending the entrant's explicit acceptance, and Register has not been clicked. The earlier read-only inspection below is retained as historical context.

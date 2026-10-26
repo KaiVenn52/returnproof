@@ -1,5 +1,12 @@
 # ReturnProof — submission release desk
 
+## Current portal state — October 27, Malaysia
+
+Registration completed after the entrant explicitly confirmed eligibility and agreement acceptance. Devpost displayed “Thanks for registering!”. The reviewed 88.44-second video is publicly published at https://youtu.be/GPr-uN0jM00 on Kang Ming Wong; YouTube reported no copyright issues. An unauthenticated YouTube oEmbed request returned the expected video title and channel. Public source remains https://github.com/KaiVenn52/returnproof.
+
+Creating the project triggered a reCAPTCHA image challenge; action-time confirmation to complete that challenge is pending. The project-entry fields remain uninspected. No final submission has occurred. Any pending registration or publication statements below describe earlier preparation stages and are superseded by this update.
+
+
 Updated October 26, 2026. **Source repository published and anonymously verified; video hosting, registration and entrant-authored fields remain open.** This is operational documentation, not a project pitch or a completed entry.
 
 ## Verified technical materials

@@ -46,13 +46,27 @@
   "video": {
     "publicationAuthorized": true,
     "durationSeconds": 88.44,
-    "hostedUrl": null,
-    "status": "awaiting_explicit_upload_dialog_agreement_acceptance"
+    "hostedUrl": "https://youtu.be/GPr-uN0jM00",
+    "status": "published_public",
+    "title": "returnproof demo",
+    "channel": "Kang Ming Wong",
+    "copyrightCheck": "no_issues_found",
+    "anonymousOembedVerified": true
   },
   "registration": {
     "personalAnswersEntered": true,
-    "eligibilityAndTermsAccepted": false,
-    "registered": false
+    "eligibilityAndTermsAccepted": true,
+    "registered": true,
+    "successMessage": "Thanks for registering!"
   },
-  "finalSubmission": false
+  "finalSubmission": false,
+  "latestPortalUpdate": {
+    "clientDate": "2026-10-27",
+    "timezone": "Asia/Kuala_Lumpur"
+  },
+  "projectEntry": {
+    "created": false,
+    "status": "creation_triggered_recaptcha_pending_action_time_confirmation",
+    "exactFieldsInspected": false
+  }
 }

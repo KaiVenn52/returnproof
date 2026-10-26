@@ -1,5 +1,12 @@
 # ReturnProof — Readiness
 
+## Current portal state — October 27, Malaysia
+
+Registration completed after the entrant explicitly confirmed eligibility and agreement acceptance. Devpost displayed “Thanks for registering!”. The reviewed 88.44-second video is publicly published at https://youtu.be/GPr-uN0jM00 on Kang Ming Wong; YouTube reported no copyright issues. An unauthenticated YouTube oEmbed request returned the expected video title and channel. Public source remains https://github.com/KaiVenn52/returnproof.
+
+Creating the project triggered a reCAPTCHA image challenge; action-time confirmation to complete that challenge is pending. The project-entry fields remain uninspected. No final submission has occurred. Any pending registration or publication statements below describe earlier preparation stages and are superseded by this update.
+
+
 Updated October 24, 2026, Asia/Kuala_Lumpur. **Local implementation verified; not yet ready to claim an accepted or complete hackathon submission.**
 
 October 24 comprehensive redesign and review: [REDESIGN_REVIEW.md](REDESIGN_REVIEW.md). Current evidence: 24 core tests, 15 full-flow UI checks, 5 acknowledgment regressions and 13 design/workflow checks. The second pass adds 7 draft/navigation/recovery checks, a more compact workspace and pre-analysis draft saving. Six widths inspected; primary-button contrast 4.90:1. Fixed unsaved-data loss paths, unchanged-source reset, stale-date display, recovery replacement and two extraction edge cases. See `brand.md` and `evidence/redesign-review.json`. These are agent checks, not learner feedback or a full accessibility certification.
