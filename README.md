@@ -63,7 +63,7 @@ Receipts stay in browser memory until Save, then in unencrypted localStorage. No
 - `evidence/*.png`: real desktop and phone-size app captures.
 - `evidence/sample-*`: files downloaded by the browser from fictional sources.
 - `evidence/workflow-review.webm`: local silent QA scratch recording, excluded from the review ZIP; not a hosted submission video.
-- `evidence/returnproof-demo.mp4`: paced, actual app demonstration for review (silent, no AI-authored narration). See `demo-recording.json` for capture details. It has not been published.
+- `evidence/returnproof-demo.mp4`: paced, actual app demonstration (silent, no AI-authored narration), publicly available on [YouTube](https://youtu.be/GPr-uN0jM00). See `demo-recording.json` for capture details.
 - `submission/READINESS.md`: actual evidence level and remaining gates.
 
 For optional reproducible browser QA, install Playwright in your own development environment and Edge, or set `PLAYWRIGHT_MODULE` to an existing Playwright module path. `npm run qa` uses the bundled Codex runtime as a machine-specific fallback, runs against port 43178, creates isolated browser contexts, and writes review artifacts. It does not use your normal browser profile. Browser plugin was unavailable in this session; regular Playwright was used. Production has no dependency on these QA tools.
@@ -72,7 +72,11 @@ For optional reproducible browser QA, install Playwright in your own development
 
 New application created for this project from October 18, 2026; no ScopePay or other product code reused. AI coding assistance: Codex. Official Devpost Learn Skill Pack installed project-locally; source hashes are in `skills-lock.json`, upstream curriculum license in `.agents/skills/LICENSE`, and the adapted process is recorded in `devpost/process-log.md`. Read the substantive scope, PRD, spec, checklist and app map under `devpost/`.
 
-Technical implementation is reviewable, but planning approval, learner interview/hands-on review and reflection are not represented as completed. Personal learner context and credentials are ignored by Git. Public publication, registration, video hosting and submission remain pending. This README is technical documentation, not a learner-authored entry description.
+ReturnProof was formally [submitted to Build With AI: Basics](https://devpost.com/software/returnproof) on October 27, 2026, at approximately 00:37 Malaysia time, before the 05:00 deadline. Registration, public source publication and public video hosting are complete. `evidence/devpost-submitted.png` preserves the submission success page.
+
+Technical implementation is reviewable, but planning approval, learner interview/hands-on review and reflection are not represented as completed. The entry describes the agent-led workflow honestly. Personal learner context and credentials are ignored by Git. This README is technical documentation, not a learner-authored entry description.
+
+Post-deadline documentation correction, October 27: the two obsolete publication/submission status statements above were corrected after a fresh audit. Application code, demo and submitted entry were not changed. The [submission-time source archive](https://github.com/KaiVenn52/returnproof/tree/57600ede46c69032d15f72d62b7588c1a170840d) remains available for reproducible review.
 
 ## License
 
